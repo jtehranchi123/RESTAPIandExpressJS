@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "I build a simple REST API with Express and NodeJS",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,6 +18,8 @@
   },
   "homepage": "https://github.com/jtehranchi123/RESTAPIandExpressJS#readme",
   "dependencies": {
-    "express": "^4.17.3"
+    "express": "^4.17.3",
+    "node-fetch": "^3.2.3",
+    "nodemon": "^2.0.15"
   }
 }
